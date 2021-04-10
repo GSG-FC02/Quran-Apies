@@ -59,7 +59,10 @@ You should have in your local machine gitBash  to download this app  and Visual 
     go live
 ```
 ### Tech stack
-The technolegies used are HTML, CSS, JavaScript.
+The technolegies used are : 
+* HTML.
+* CSS.
+* JavaScript.
 ### Our Team
 - Aya
 - Reem
