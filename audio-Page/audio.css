@@ -11,7 +11,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.Header {
+.main {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -30,9 +30,12 @@ padding: 25px;
   padding: 16px;
   font-size: 25px;
   color: #FFFFFF;
-  margin-left: 48px;
+  margin-left: 77px;
 }
 
+img {
+  margin-left: 50px;
+}
 .para1 {
   font-size: 20px;
   color: #905983;
@@ -51,33 +54,8 @@ padding: 25px;
   height: 43px;
   margin-left: 150px;
   margin-bottom: 5px;
+  outline: none;
 }
-
-/* .dropDownMenu {
-  position: relative;
-  display: inline-block;
-  margin-left: 227px;
-} */
-
-/* .dropDownContent {
-  display: none;
-  position: absolute;
-  background-color: #DFD1E0;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-} */
-
-/* .dropDownContent a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropDownContent a:hover {background-color: #DFD1E0;}
-
-.dropDownMenu:hover .dropDownContent {display: block;} */
 
 .para2 {
   font-size: 20px;
@@ -102,5 +80,7 @@ border: none;
 height: 40px;
 }
 
-
+.audioControl {
+  width: 270px;
+}
 
