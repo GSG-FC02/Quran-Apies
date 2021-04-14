@@ -56,7 +56,16 @@ img {
   margin-bottom: 5px;
   outline: none;
 }
-
+#searchBtn{
+  background-color: #905983;
+  border: none;
+  border-radius: 16px;
+  color: white;
+  width: 60px;
+  height: 43px;
+  font-size: 20px;
+  outline: none;
+}
 .para2 {
   font-size: 20px;
   color: #905983;
@@ -74,10 +83,12 @@ img {
 #verseNumber {
 border-radius: 20px;
 text-align: center;
-width: 70px;
+width: 126px;
 margin-bottom: 5px;
 border: none;
 height: 40px;
+outline: none;
+margin-bottom: 20px;
 }
 
 .audioControl {
