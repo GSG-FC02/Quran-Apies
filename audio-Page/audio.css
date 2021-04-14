@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 375px;
+  height: 812px;
+  margin: auto;
+  background-color: #DFD1E0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+padding: 25px;
+}
+
+.header {
+  background-color: #905983;
+  border-radius: 25px;
+  text-align: center;
+  width: 225px;
+  height: 56px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 16px;
+  font-size: 25px;
+  color: #FFFFFF;
+  margin-left: 77px;
+}
+
+img {
+  margin-left: 50px;
+}
+.para1 {
+  font-size: 20px;
+  color: #905983;
+  text-align: right;
+  margin-right: 27px;
+  margin-bottom: 5px;
+}
+.dropDown_btn {
+  background-color: #905983;
+  color: white;
+  padding: 11px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  width: 200px;
+  height: 43px;
+  margin-left: 150px;
+  margin-bottom: 5px;
+  outline: none;
+}
+#searchBtn{
+  background-color: #905983;
+  border: none;
+  border-radius: 16px;
+  color: white;
+  width: 60px;
+  height: 43px;
+  font-size: 20px;
+  outline: none;
+}
+.para2 {
+  font-size: 20px;
+  color: #905983;
+  text-align: right;
+  margin-right: 27px;
+  margin-bottom: 5px;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 26px;
+  
+}
+#verseNumber {
+border-radius: 20px;
+text-align: center;
+width: 126px;
+margin-bottom: 5px;
+border: none;
+height: 40px;
+outline: none;
+margin-bottom: 20px;
+}
+
+.audioControl {
+  width: 270px;
+}
+
