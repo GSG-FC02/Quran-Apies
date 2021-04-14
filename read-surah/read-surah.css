@@ -9,10 +9,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #DFD1E0;
 }
-.whole-page {
-    width: 98%;
-    height: 97%;
-}
+
 /* This is for the page content to be in the middle */
 .main-container {
     padding: 25px;
