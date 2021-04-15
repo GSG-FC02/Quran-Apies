@@ -115,7 +115,7 @@ body{
 
 @media (min-width: 426px) {
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .main-container{
     display: flex;
@@ -172,6 +172,6 @@ body{
     font-size: 1.5rem;
 } 
 .btn-back{
-    margin: 40px 100px 0 0 ;
+    margin: 20px 100px 0 0 ;
 }
 }
