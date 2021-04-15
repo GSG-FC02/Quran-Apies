@@ -14,7 +14,7 @@ This app provides three user services:
 
 ### App wireframe
 The design of the app were done through figma. It is based to simplfy user experience and make it as peaceful and smooth as possible.
-<img src="/assets/wireframe.png" >
+<img src="Assets/wireframe.png" >
 
 ### User journey
 The muslim user is welcomed by a home page. Home page shows the user three button choices: 
