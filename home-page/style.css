@@ -67,6 +67,8 @@ img {
     margin-bottom: 20px;
     font-size: 22px;
 }
+
+
 /* Medis query  */
 @media  screen and (min-width: 600px) {
 img{
@@ -82,9 +84,54 @@ img{
    
 }
 }
-@media  screen and (max-width: 320px) {
-    .israa-name{
-        font-size: 13px;
+@media screen and (min-width: 1024px) {
+    body{
+        overflow: hidden;
     }
-
-}
+    .container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        position: relative;
+    }
+    
+    .header{
+        height: 50px;
+        line-height: 40px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    figure {
+        padding:5px;
+        width: 49%;
+        height: 95%;
+    }
+    img{
+        width: 80%;
+        height: 96%;
+        margin-left: 0;
+    }
+    .buttons-container{
+        width: 49%;
+        height: 50%;
+        position: absolute;
+        top:20%;
+        left: 55%;
+    }
+    .aya-israa{
+        font-size: 30px;
+        font-weight: 200 ;
+        margin-top: 40px;
+    }
+    .israa-name{
+        font-size: 20px;
+    }
+  
+    .buttons{
+        width: 88%;
+        height: 142%;
+        margin: 5px 10px;
+        font-size: 1.5rem;
+    } 
+    }
