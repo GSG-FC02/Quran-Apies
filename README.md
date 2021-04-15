@@ -49,21 +49,15 @@ API Fethcing were used to create this app by useing javascript. These APIes are:
 https://api.quran.sutanlab.id/surah
 https://unpkg.com/quran-json@1.0.1/json/quran/en.json
 https://al-quran-8d642.firebaseio.com/data.json?print=pretty
-### App installation to run it locally.
-You should have in your local machine gitBash  to download this app  and Visual Studio Code to view it.
 
-```
-    git clone ( past the copied link of repository clone).
-    cd Quran-Apies 
-    code .
-    go live
-```
 ### Tech stack
 The technolegies used are : 
 * HTML.
 * CSS.
 * JavaScript.
 ### Our Team
-- Aya
 - Reem
 - Ola
+- Aya
+
+
