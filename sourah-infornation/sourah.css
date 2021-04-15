@@ -62,7 +62,7 @@ form{
 
 
 }
-form :first-child{
+.btn-output{
     width :70px;
     margin-right: 15px;
     height: 40px;
@@ -94,13 +94,23 @@ input[type="text"]::placeholder{
 .item span {
     margin-right: 10px;
     font-size: 18px;
-   
-  
 }
+.btn-back{
+    margin-top: 25px;
+    border:none;
+    border-radius: 50px;
+    width: 220px;
+    height: 40px;
+    font-size: 20px;
+    background: #99668c;
+    color: #fff;
+}
+
 /* Media query */
 @media  screen and (min-width: 768px) {
     .write-name-header{
         margin-right: 8%;
+        padding: 20px;
     }
     form{
         width: 100%;
@@ -111,13 +121,61 @@ input[type="text"]::placeholder{
     } 
 }
 
-@media  screen and (min-width: 1024px) {
-    .container{
-        width: 50%;
-        margin: auto;
+/*  */
+@media screen and (min-width: 1024px) {
+    body{
+        overflow: hidden;
     }
-        img{
-            width: 600px;
-            height: 400px;
-        }
-} 
+    .container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        position: relative;
+        flex-direction: row-reverse;
+    }
+    
+    .header{
+        line-height: 40px;
+         margin-left: 50px;
+         width: 33rem;
+         margin-top: 30px;
+
+    }
+    figure {
+        padding:5px;
+        width: 49%;
+        height: 60%;
+      
+    }
+    img{
+        width: 80%;
+        height: 70%;
+    }
+    .search-container{
+        width: 40%;
+        height: 50%;
+        position: absolute;
+        top:20%;
+        left: 58%;
+    }
+   .information{
+       width:90%;
+       height: 80%;
+   }
+   .write-name-header{
+       font-size: 25px;
+   }
+   #sourah-name-input{
+       width:25rem;
+   }
+ #search{
+    width:9rem; 
+   }
+   .item{
+       padding: 15px 0;
+       font-size: 22px;
+       text-align: right;
+   }
+  
+ 
+    }
