@@ -52,5 +52,5 @@ function search(){
             }
         } 
     })
-    .catch(console.error("something went wrong"))
+    // .catch(console.error("something went wrong"))
 }
