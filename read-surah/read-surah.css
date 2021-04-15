@@ -100,9 +100,23 @@ body{
     .verse-number{
     display: inline;
     }
+    .btn-back{
+        border:none;
+        border-radius: 50px;
+        width: 220px;
+        height: 40px;
+        font-size: 20px;
+        background: #99668c;
+        color: #fff;
+       
+    }
+    
 /* responsive styling for laptop window*/
 
 @media (min-width: 426px) {
+body{
+    overflow: hidden;
+}
 .main-container{
     display: flex;
     justify-content: space-around;
@@ -153,8 +167,11 @@ body{
 }
 .search-result{
     width: 88%;
-    height: 142%;
+    height: 140%;
     margin: 5px 10px;
     font-size: 1.5rem;
 } 
+.btn-back{
+    margin: 40px 100px 0 0 ;
+}
 }
