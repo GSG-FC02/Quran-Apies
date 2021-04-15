@@ -101,7 +101,16 @@ img {
 #audioControl {
   width: 250px;
 }
-
+.btn-back{
+  margin-top: 25px;
+  border:none;
+  border-radius: 50px;
+  width: 220px;
+  height: 40px;
+  font-size: 20px;
+  background: #99668c;
+  color: #fff;
+}
 
 /* Media query */
 @media  screen and (min-width: 768px) {
