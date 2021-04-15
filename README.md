@@ -1,8 +1,6 @@
 # [Quran-Apies]( https://gsg-fc02.github.io/Quran-Apies/)
 ### With Al-Qura'an Al-Kareem (مع القرآن الكريم)
 It is simple app for providing electronic services related to the Holy Quara'an.
-### The live Dem   (مع القرآن الكريم)
-You are more than welcome to visit our app here ( for github pages)
 ### The problem this app solve
 Many times, muslims user needs to access quickly general information about Sour Al-Qura'an Al-Kareem, listening to recitation of Soura of Al-Qura'an Al-Kareem, or reading one surah from Al-Qura'an Al-Kareem. Thus, we were inspired to build a simple to use app for Al-Qura'an Al-Kareem. 
 ### The Solution
@@ -25,9 +23,9 @@ When the user click on one of these button, it will land to specific page fullfi
 ### User story
 As a muslim user, I am welcomed to this app at home page. I can
 - see three buttons which are 
-      * Detailed informatin of Soura (تفاصيل عن سور).
-      * Listening to Soura (الاستماع لسورة)
-      * reading Surah from Al-Qura'an Al-Karee(اقرأ سورة من القرآن الكريم)
+      - Detailed informatin of Soura (تفاصيل عن سور).
+      - Listening to Soura (الاستماع لسورة)
+      - reading Surah from Al-Qura'an Al-Karee(اقرأ سورة من القرآن الكريم)
 As a muslim user, I can:
 - press on "Detailed informatin of Soura (تفاصيل عن سورة)" button which leads me to Soura information page containing a search form. 
 - type Soura name and press (استخرج) button in the search form. 
@@ -46,9 +44,9 @@ As a muslim user, I can:
 
 ### How was the App built?
 API Fethcing were used to create this app by useing javascript. These APIes are:
-https://api.quran.sutanlab.id/surah
-https://unpkg.com/quran-json@1.0.1/json/quran/en.json
-https://al-quran-8d642.firebaseio.com/data.json?print=pretty
+- https://api.quran.sutanlab.id/surah
+- https://unpkg.com/quran-json@1.0.1/json/quran/en.json
+- https://al-quran-8d642.firebaseio.com/data.json?print=pretty
 
 ### Tech stack
 The technolegies used are : 
