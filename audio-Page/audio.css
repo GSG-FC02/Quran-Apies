@@ -39,12 +39,9 @@ img {
   margin: auto;
 }
 .name-sourah,.moqrea {
-  font-size: 20px;
+  font-size: 2rem;
   color: #905983;
   text-align: right;
-}
-.search{
-  margin: auto;
 }
 .moqra-name {
   background-color: #905983;
@@ -56,7 +53,7 @@ img {
   border-radius: 20px;
   width: 180px;
   height: 43px;
-  margin: 0 0 5px 110px;
+  margin: 10px ;
 
 }
 #searchBtn{
@@ -64,22 +61,17 @@ img {
   border: none;
   border-radius: 16px;
   color: white;
-  width: 90px;
+  width: 60px;
   height: 38px;
   font-size: 20px;
+  margin: 10px;
 }
-.para2 {
-  font-size: 20px;
-  color: #905983;
-  text-align: right;
-  margin-right: 27px;
-  margin-bottom: 5px;
-}
+
 .search {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-right: 26px;
+  margin: 10px;
   
 }
 .search-item{
@@ -92,12 +84,10 @@ img {
   width: 150px;
   border: none;
   height: 40px;
-  margin:0 0 20px 5px;
-  padding: 5px;
+  margin:10px;
+  padding: 10px;
   
 }
-
-
 #audioControl {
   width: 250px;
 }
@@ -114,37 +104,81 @@ img {
 
 /* Media query */
 @media  screen and (min-width: 768px) {
-  .main{
-    width: 50%;
-    margin: auto;
-  }
-  img{
-    margin-left: 19px;
+  .search{
+    margin-right: 100px;
   }
 }
-
 @media  screen and (min-width: 1024px) {
   .main{
-    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 100vh;
     margin: auto;
   }
-  img{
-    width: 600px;
-    height: 400px;
-    margin: auto 0 0 50px;
-    
+  .header {
+    margin-top: 35px;
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #905983;
+    color: #fff;
+    width: 45%;
+    height: 70px;
+    line-height: 60px;
+    margin-right: 10px;
+    font-size: 2.5rem;
   }
-  .header{
-    width:80%
+  .img{
+      margin-top: 15px;
+      width: 50%;
+      height: 95%;
+      border-radius: 45px;
   }
-  #verseNumber{
-    width:250px
+  .search{
+    width: 50%;
+    height: 70%;
+    margin-top: 20px;
+    position: relative;
+    bottom: 80%;
+    left: 27%;
   }
-  #audioControl{
-    width:350px;
-  }
-  .search {
-    margin-right: 70px;
+  .moqrea, .name-sourah {
+    margin: 10px;
+    font-size: 2rem;
   }
 
-} 
+  .moqra-name {
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    width: 66%;
+    height: 15%;
+    margin: 10px 20px 10px 10px;
+}
+.name-sourah {
+  margin-top: 30px;
+}
+.search-item {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin:10px 0;
+}
+#searchBtn {
+  width: 19%;
+  height: 85%;
+}
+#verseNumber {
+    width: 60%;
+    height: 85%;
+}
+#audioControl {
+  width: 85%;
+  margin-top: 30px;
+}
+}
