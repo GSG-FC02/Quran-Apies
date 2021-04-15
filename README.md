@@ -14,7 +14,7 @@ This app provides three user services:
 
 ### App wireframe
 The design of the app were done through figma. It is based to simplfy user experience and make it as peaceful and smooth as possible.
-<img src="/Assets/wireframe.png" >
+<img src="Assets/wireframe.png" >
 
 ### User journey
 The muslim user is welcomed by a home page. Home page shows the user three button choices: 
@@ -49,21 +49,15 @@ API Fethcing were used to create this app by useing javascript. These APIes are:
 https://api.quran.sutanlab.id/surah
 https://unpkg.com/quran-json@1.0.1/json/quran/en.json
 https://al-quran-8d642.firebaseio.com/data.json?print=pretty
-### App installation to run it locally.
-You should have in your local machine gitBash  to download this app  and Visual Studio Code to view it.
 
-```
-    git clone ( past the copied link of repository clone).
-    cd Quran-Apies 
-    code .
-    go live
-```
 ### Tech stack
 The technolegies used are : 
 * HTML.
 * CSS.
 * JavaScript.
 ### Our Team
-- Aya
 - Reem
 - Ola
+- Aya
+
+
