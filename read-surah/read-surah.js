@@ -43,6 +43,7 @@ function search(){
     
     .then(findConsole =>{
         console.log(searchNumber);
+        inputValue.value=searchSourah;
          for (  i = 0; i < findConsole.length; i++ ){ 
             if (searchNumber == findConsole[i].surah_number) {
                 verse = findConsole[i].text
