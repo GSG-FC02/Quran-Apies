@@ -136,7 +136,7 @@ input[type="text"]::placeholder{
     
     .header{
         line-height: 40px;
-         margin-left: 50px;
+         margin-left: 80px;
          width: 33rem;
          margin-top: 30px;
 
@@ -164,9 +164,10 @@ input[type="text"]::placeholder{
    }
    .write-name-header{
        font-size: 25px;
+       margin-left: -50px;
    }
    #sourah-name-input{
-       width:25rem;
+       width:22rem;
    }
  #search{
     width:9rem; 

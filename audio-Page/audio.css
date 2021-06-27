@@ -64,32 +64,35 @@ img {
   width: 60px;
   height: 38px;
   font-size: 20px;
-  margin: 10px;
+  margin: 5px;
 }
 
 .search {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin: 10px;
+  margin: 10px 0;
   
 }
 .search-item{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 #verseNumber {
   border-radius: 20px;
   text-align: right;
-  width: 150px;
+  width: 160px;
   border: none;
   height: 40px;
-  margin:10px;
+   margin-right:5px ; 
   padding: 10px;
   
 }
 #audioControl {
-  width: 250px;
+  width: 232px;
 }
 .btn-back{
   margin-top: 25px;
@@ -126,7 +129,7 @@ img {
     background-color: #905983;
     color: #fff;
     width: 45%;
-    height: 70px;
+    height: 65px;
     line-height: 60px;
     margin-right: 10px;
     font-size: 2.5rem;
@@ -156,9 +159,9 @@ img {
     text-align: center;
     border: none;
     border-radius: 20px;
-    width: 66%;
-    height: 15%;
-    margin: 10px 20px 10px 10px;
+    width: 50%;
+    height: 13%;
+    margin: -50px 90px 10px 10px;
 }
 .name-sourah {
   margin-top: 30px;
@@ -166,19 +169,14 @@ img {
 .search-item {
   display: flex;
   justify-content: flex-end;
-  width: 100%;
-  margin:10px 0;
-}
-#searchBtn {
-  width: 19%;
-  height: 85%;
 }
 #verseNumber {
     width: 60%;
     height: 85%;
 }
 #audioControl {
-  width: 85%;
+  width: 80%;
+  height: 30px;
   margin-top: 30px;
 }
 }

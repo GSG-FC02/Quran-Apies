@@ -20,24 +20,18 @@ searchBtn.onclick = (e)=>{
      sourahPlace.innerText=''
 
     fetch(url)
-
     .then(response=>{
         return response.json()  
     })
-
-
     .then(printData=>{
-
-        for ( i = 0; i < printData.data.length; i++) {
-            if(inputValue.value === printData.data[i].name.short){
-                sourahName.innerText= printData.data[i].name.short
-                sourahNumberInQuran.innerText=printData.data[i].number
-                sourahAyasNumber.innerText=printData.data[i].numberOfVerses
-                sourahPlace.innerText=printData.data[i].revelation.arab
+    for ( i = 0; i < printData.data.length; i++) {
+        if(inputValue.value === printData.data[i].name.short){
+           sourahName.innerText= printData.data[i].name.short
+           sourahNumberInQuran.innerText=printData.data[i].number
+           sourahAyasNumber.innerText=printData.data[i].numberOfVerses
+           sourahPlace.innerText=printData.data[i].revelation.arab
 
             }
-         
-     
    }
 }
  )

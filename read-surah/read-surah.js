@@ -14,14 +14,26 @@ let i;
 
 searchButton.addEventListener("click", search );
 
-
 function search(){
     searchResult.innerHTML = "";
-    searchNumber = inputValue.value;
+    searchSourah = inputValue.value;
     inputValue.value = "";
 
     let url = "https://unpkg.com/quran-json@1.0.1/json/quran/en.json";
-    fetch(url)
+    let url2 = "https://api.quran.sutanlab.id/surah" // This is the api for the Holy Qura'an Sour to get the sourah number by searching name
+    fetch (url2)
+        .then(response=>{
+            return  response.json();   
+        })  
+        .then(printData=>{
+            for (let i = 0; i < printData.data.length; i++ ){ 
+           if(searchSourah==printData.data[i].name.short) 
+           searchNumber=printData.data[i].number //return sourah number 
+          
+            }
+        } )
+    
+    .then (() =>{return fetch(url)}) // to get verses 
 
     .then(response=>{
         findConsole = response.json();
@@ -52,5 +64,5 @@ function search(){
             }
         } 
     })
-    // .catch(console.error("something went wrong"))
+//     // .catch(console.error("something went wrong"))
 }
