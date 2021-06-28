@@ -177,6 +177,9 @@ input[type="text"]::placeholder{
        font-size: 22px;
        text-align: right;
    }
-  
+   .btn-back{
+    width: 250px;
+
+  } 
  
     }

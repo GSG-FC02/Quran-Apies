@@ -102,7 +102,7 @@ body{
 .btn-back{
         border:none;
         border-radius: 50px;
-        width: 180px;
+        width: 230px;
         height: 40px;
         font-size: 17px;
         background: #99668c;
@@ -172,7 +172,7 @@ img{
 } 
 .btn-back{
     margin: 20px 100px 0 0 ;
-    width: 220px;
+    width: 270px;
     font-size: 22px;
 }
 }
